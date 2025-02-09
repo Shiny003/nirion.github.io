@@ -1,0 +1,52 @@
+body {
+    background-image: url('Images/Nirion\ background.png');
+    background-color: #6c48c5;
+}
+
+.font {
+    font-family: "Rubik", serif;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbtn
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    display: inline-block;
+}
+
+.topnav a:hover {
+    border-radius: 15px;
+    background-color: #ddd;
+    color: black;
+    transform: scale(1.2);
+}
+
+.topnav a.active {
+    border-radius: 15px;
+    background-color: #bc8fff;
+    color: white;
+}
+
+.box {
+    border-radius: 25px;
+    background-color: #4f30a9;
+    padding: 20px; 
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
